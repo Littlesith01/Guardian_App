@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "660981593248",
+    "firebase_url": "https://guardian-8e744.firebaseio.com",
+    "project_id": "guardian-8e744",
+    "storage_bucket": "guardian-8e744.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660981593248:android:0e50dc532eb6e0faf0c5c5",
+        "android_client_info": {
+          "package_name": "guardain.evans.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660981593248-vfui3d2lt3puh5vg39gmuie4q6f0uimv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnIQ0i2PP4eiwq5CfFGFQEslUImhTbD64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660981593248-vfui3d2lt3puh5vg39gmuie4q6f0uimv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
