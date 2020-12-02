@@ -12,7 +12,6 @@ import android.view.View;
 import androidx.annotation.NonNull;
 
 public class Login extends AppCompatActivity {
-
     private static final String TAG = MainActivity.class.getName();
 
     @Override
@@ -70,5 +69,5 @@ public class Login extends AppCompatActivity {
         });
 
     }
-
 }
+
