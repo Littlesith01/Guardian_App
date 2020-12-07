@@ -9,32 +9,33 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="338dp"
-        android:layout_height="649dp"
+        android:layout_width="375dp"
+        android:layout_height="685dp"
         android:background="@drawable/background_square"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.494" />
+        app:layout_constraintVertical_bias="0.271" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="437dp"
-        android:layout_height="399dp"
-        android:layout_marginBottom="436dp"
+        android:layout_width="562dp"
+        android:layout_height="456dp"
+        android:layout_marginBottom="408dp"
         android:background="@drawable/circle"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/LoginHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="128dp"
         android:text="@string/newUser"
         android:textColor="#FFFFFF"
         android:textSize="55dp"
@@ -43,21 +44,63 @@
 
     <EditText
         android:id="@+id/editTextTextPassword2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="265dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="132dp"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="572dp" />
+        android:hint="Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="265dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="168dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="525dp" />
+        android:hint="Email"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="265dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="404dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="264dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="360dp"
+        android:hint="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/createUserButton"
+        android:layout_width="151dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginLeft="288dp"
+        android:layout_marginTop="612dp"
+        android:background="@drawable/circle"
+        android:text="Create"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
